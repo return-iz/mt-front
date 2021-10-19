@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    color: #3e3c19;
+}
+
+p {
+    margin: 5px 0;
+}
+
+#main {
+    margin-left: 15em;
+    color: black;
+}

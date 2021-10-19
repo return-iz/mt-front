@@ -1,0 +1,6 @@
+.menublock {
+    position: fixed;
+    height: 100%;
+    background-color: #9ad969;
+    min-width: 15em;
+}

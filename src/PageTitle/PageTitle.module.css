@@ -1,0 +1,6 @@
+.pagetitle {
+    margin-bottom: 1em;
+    background: linear-gradient(to bottom, white 60%, #9ad969 40%);
+    width: fit-content;
+    color: black;
+}

@@ -1,0 +1,11 @@
+.menuitem {
+    height: 3em;
+    line-height: 3em;
+    padding: 0 1em;
+}
+
+.menuitem:hover {
+    cursor: pointer;
+    color: #9ad969;
+    background-color: #3e3c19;
+}
