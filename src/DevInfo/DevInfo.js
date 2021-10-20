@@ -4,12 +4,12 @@ class DevInfo extends React.Component {
     render() {
         return(
             <div>
-                <p>
+                <div>
                     {this.props.Name}
-                </p>
-                <p>
+                </div>
+                <div>
                     {this.props.Bio}
-                </p>
+                </div>
             </div>
         );
     }

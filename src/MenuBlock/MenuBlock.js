@@ -44,7 +44,7 @@ class MenuBlock extends React.Component {
             <nav className={Styles.menublock}>
                 <MenuItem Text="Главная" clickHandler={this.homePage}/>
                 <MenuItem Text="Новости" clickHandler={this.newsPage}/>
-                <MenuItem Text="Базы данных" clickHandler={this.dbPage}/>
+                <MenuItem Text="Команды TI 10" clickHandler={this.dbPage}/>
                 <MenuItem Text="Разработчики" clickHandler={this.devPage}/>
             </nav>
         );

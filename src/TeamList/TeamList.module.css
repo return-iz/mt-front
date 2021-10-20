@@ -1,0 +1,8 @@
+.teamlist {
+    width: 50%;
+    margin: 2em 25%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+
+}
