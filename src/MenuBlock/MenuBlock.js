@@ -6,6 +6,8 @@ import DevelopersPage from "../DevelopersPage/DevelopersPage";
 import HomePage from "../HomePage/HomePage";
 import NewsPage from "../NewsPage/NewsPage";
 import DbPage from "../DbPage/DbPage";
+import MusicPage from "../MusicPage/MusicPage";
+
 
 class MenuBlock extends React.Component {
 
@@ -37,15 +39,21 @@ class MenuBlock extends React.Component {
         );
     }
 
-    
+    musicPage = () => {
+        ReactDOM.render(
+            <MusicPage />,
+            document.getElementById("main")
+        );
+    }
 
     render() {
         return (
             <nav className={Styles.menublock}>
                 <MenuItem Text="Главная" clickHandler={this.homePage}/>
-                <MenuItem Text="Новости" clickHandler={this.newsPage}/>
+                <MenuItem Text="GIF-мемы" clickHandler={this.newsPage}/>
                 <MenuItem Text="Команды TI 10" clickHandler={this.dbPage}/>
                 <MenuItem Text="Разработчики" clickHandler={this.devPage}/>
+                <MenuItem Text="Музыка" clickHandler={this.musicPage}/>
             </nav>
         );
     }

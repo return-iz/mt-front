@@ -1,0 +1,31 @@
+.music {
+    border: 2px solid #9ad969;
+    box-shadow: 0 0 10px 0 black;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    word-break: break-all;
+}
+
+.playpause {
+    border: 1px solid black;
+    border-radius: 500em;
+    width: 10em;
+    padding: 1ex;
+    margin: 1em;
+    user-select: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.playpause:hover {
+    background-color: #9ad969;
+    box-shadow: 0 0 5px 0 black;
+}
+
+.title {
+    padding: 1ex 1em;
+    border-bottom: 2px solid #9ad969;
+}

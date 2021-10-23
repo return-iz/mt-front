@@ -1,0 +1,10 @@
+.duration {
+    border: 1px solid black;
+    border-radius: 500em;
+    padding: 1ex;
+    margin: 1em;
+    text-align: center;
+    width: 10em;
+    user-select: none;
+    cursor: pointer;
+}

@@ -1,0 +1,7 @@
+.memesblock {
+    width: 50%;
+    margin: 0 25%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+}
